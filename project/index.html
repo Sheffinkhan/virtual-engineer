@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Add a task">
+        <button onclick="addTask()">Add</button>
+    <ul id="taskList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
+<button onclick="deleteTask()">Delete</button>
+
+<div>
+    <button onclick="addTask()">Add Task</button>
+    <button onclick="deleteTask()">Delete Task</button>
+
+    <!-- Add Segment Control Here -->
+    <select id="segmentControl">
+        <option value="segment1">Segment 1</option>
+        <option value="segment2">Segment 2</option>
+    </select>
+</div>

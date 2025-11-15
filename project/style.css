@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 0;
+    width: 70%;
+}
+
+button {
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+body {
+    background-color: blue;
+}
+li {
+    color: red;
+}
